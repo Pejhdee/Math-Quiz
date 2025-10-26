@@ -1,0 +1,313 @@
+body {
+    overflow: hidden;
+}
+
+.circle1 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    left: -185px;
+    top: -182px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+
+.circle2 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    right: -184px;
+    bottom: -181px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+
+.circle3 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    right: -98px;
+    top: -96px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+.circle4 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    left: -98px;
+    bottom: -96px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+.circle5 {
+    position: absolute;
+    width: 63px;
+    height: 62px;
+    left: 476px;
+    bottom: 53px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+.circle6 {
+    position: absolute;
+    width: 149px;
+    height: 154px;
+    left: 1003px;
+    top: 247px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+.circle7{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 236px;
+    top: 215px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+
+.button-start {
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
+    position: absolute;
+    width: 230px;
+    height: 95px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+.button-restart{
+    background-color: #FF0062;
+    border: 2px solid #FF0062;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 648px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+.button-restart:hover{
+    background-color: #FF0062;
+    border: 2px solid #FF0062;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 648px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.button-restart:active{
+    background-color: #7c0030;
+    border: 2px solid #7c0030;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 648px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 90px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.quiz {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+}
+.question {
+    font-size: 160px;
+    font-family: 'Jost';
+}
+.answer {
+    font-family: 'Jost';
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 10px;
+    font-size: 40px;
+    width: 81.02px;
+    height: 88px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: none;
+    transition-duration: 0.2s;
+}
+.answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-start:hover{
+    background-color: #0077FF;
+    border: 2px solid #0077FF;
+    position: absolute;
+    width: 230px;
+    height: 95px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+
+.button-restart:hover{
+    background-color: #c7004c;
+    border: 2px solid #ff0062;
+    position: absolute;
+    width: 400px;
+    height: 375px;
+    left: 537px;
+    top: 429px;
+    position: absolute;
+    text-align: center;
+    width: 216px;
+    height: 90px;
+    left: 648px;
+    top: 505px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+
+.button-start:active{
+    background-color: #0a00cb;
+    border: 2px solid #0a00cb;
+    position: absolute;
+    width: 230px;
+    height: 95px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 87px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.answer:hover{
+    font-family: 'Jost';
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #0077FF;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 10px;
+    font-size: 40px;
+    width: 81.02px;
+    height: 88px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+    transition-property: transform, box-shadow;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: 0.2s;
+}
+.answer:active {
+    font-family: 'Jost';
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #0a00cb;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 10px;
+    font-size: 40px;
+    width: 81.02px;
+    height: 88px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    transition-property: box-shadow, transform;
+    box-shadow: none;
+    transform: none;
+    transition-duration: 0.2s;
+}
