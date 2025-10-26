@@ -2,72 +2,6 @@ body {
     overflow: hidden;
 }
 
-.circle1 {
-    position: absolute;
-    width: 369px;
-    height: 363px;
-    left: -185px;
-    top: -182px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-
-.circle2 {
-    position: absolute;
-    width: 369px;
-    height: 363px;
-    right: -184px;
-    bottom: -181px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-
-.circle3 {
-    position: absolute;
-    width: 196px;
-    height: 192px;
-    right: -98px;
-    top: -96px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-.circle4 {
-    position: absolute;
-    width: 196px;
-    height: 192px;
-    left: -98px;
-    bottom: -96px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-.circle5 {
-    position: absolute;
-    width: 63px;
-    height: 62px;
-    left: 476px;
-    bottom: 53px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-.circle6 {
-    position: absolute;
-    width: 149px;
-    height: 154px;
-    left: 1003px;
-    top: 247px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-.circle7{
-    position: absolute;
-    width: 84px;
-    height: 84px;
-    left: 236px;
-    top: 215px;
-    border-radius: 50%;
-    background: #0077FF;
-}
-
 .button-start {
     background-color: #0077FF;
     border: 2px solid #0077FF;
@@ -310,4 +244,5 @@ body {
     box-shadow: none;
     transform: none;
     transition-duration: 0.2s;
+
 }
