@@ -1,7 +1,44 @@
 body {
     overflow: hidden;
 }
+.circle1 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    left: -185px;
+    top: -182px;
+    border-radius: 50%;
+    background: #0077FF;
+}
 
+.circle2 {
+    position: absolute;
+    width: 369px;
+    height: 363px;
+    right: -184px;
+    bottom: -181px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+
+.circle3 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    right: -98px;
+    top: -96px;
+    border-radius: 50%;
+    background: #0077FF;
+}
+.circle4 {
+    position: absolute;
+    width: 196px;
+    height: 192px;
+    left: -98px;
+    bottom: -96px;
+    border-radius: 50%;
+    background: #0077FF;
+}
 .button-start {
     background-color: #0077FF;
     border: 2px solid #0077FF;
@@ -246,3 +283,4 @@ body {
     transition-duration: 0.2s;
 
 }
+
