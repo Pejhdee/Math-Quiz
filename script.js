@@ -6,9 +6,6 @@ let cir1 = document.querySelector('.circle1')
 let cir2 = document.querySelector('.circle2')
 let cir3 = document.querySelector('.circle3')
 let cir4 = document.querySelector('.circle4')
-let cir5 = document.querySelector('.circle5')
-let cir6 = document.querySelector('.circle6')
-let cir7 = document.querySelector('.circle7')
 
 let query_counter = 0
 let correct_answers = 0
@@ -169,5 +166,6 @@ function QuizRestart(){
 }
 question[query_counter].display()
 }
+
 
 
